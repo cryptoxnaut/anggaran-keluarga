@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DompetKeluarga — Anggaran Rumah Tangga Keluarga Pratama</title>
+<meta name="description" content="DompetKeluarga: kelola pemasukan, pengeluaran, anggaran kategori, tabungan, tagihan, dan laporan bulanan rumah tangga dalam satu tempat.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">◉</span>
+      <span class="brand-text"><strong>DompetKeluarga</strong><small>Anggaran Rumah Tangga</small></span>
+    </a>
+    <nav class="mainnav" aria-label="Navigasi utama">
+      <a href="#/" data-route="">Dasbor</a>
+      <a href="#/transaksi" data-route="transaksi">Pemasukan &amp; Pengeluaran</a>
+      <a href="#/anggaran" data-route="anggaran">Anggaran</a>
+      <a href="#/tabungan" data-route="tabungan">Tabungan</a>
+      <a href="#/tagihan" data-route="tagihan">Tagihan</a>
+      <a href="#/laporan" data-route="laporan">Laporan</a>
+    </nav>
+    <div class="month-badge" id="month-badge">November 2026</div>
+  </div>
+</header>
+
+<main class="wrap" id="app" aria-live="polite"></main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>DompetKeluarga</strong> — contoh anggaran rumah tangga Keluarga Pratama (4 anggota), November 2026.
+    Semua angka tersimpan di peramban Anda dan tidak dikirim ke mana pun.</p>
+    <p class="foot-links">
+      <a href="#/">Dasbor</a> · <a href="#/transaksi">Transaksi</a> · <a href="#/anggaran">Anggaran</a> ·
+      <a href="#/tabungan">Tabungan</a> · <a href="#/tagihan">Tagihan</a> · <a href="#/laporan">Laporan</a>
+    </p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
